@@ -7,14 +7,14 @@
   },
   {
     "icon": "👩",
-    "name": "Asmaa Bakki",
-    "role": "Scrum Master",
-    "bio": "Asmaa keeps the team on track by facilitating smooth sprints, daily stand-ups, and solving blockers. They promote collaboration, clear communication, and an agile mindset within the group."
+    "name": "Asmaa",
+    "role": "Scrum Master 1",
+    "bio": "Asmaa keeps the team on track by facilitating smooth sprints, daily stand-ups, and solving blockers. She promotes collaboration, clear communication, and an agile mindset within the group.<br />Team Members: Khadija, Douae, Meriam"
   },
   {
     "icon": "👨",
-    "name": "Ayman Said ElMassaoudi",
-    "role": "Scrum Master",
-    "bio": "With a focus on continuous improvement, Ayman helps the team stay focused and flexible. They lead sprint planning and retrospectives, ensuring that team members remain engaged and productive."
+    "name": "Ayman",
+    "role": "Scrum Master 2",
+    "bio": "With a focus on continuous improvement, Ayman helps the team stay focused and flexible. He leads sprint planning and retrospectives, ensuring that team members remain engaged and productive.<br />Team Members: Youness, Anas, Mohamed, Hafida"
   }
 ]

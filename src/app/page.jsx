@@ -169,17 +169,6 @@ const AtlixLandingPage = () => {
 
               {/* Guests Selector */}
               <div className="relative">
-                {/* <label className="block text-gray-600 text-sm font-medium mb-2">
-                  Guests & rooms
-                </label>
-                <input
-                  className="w-full p-3 border-2 border-gray-300 rounded-lg text-gray-800 cursor-pointer focus:border-[#bc6c25] focus:outline-none focus:ring-2 focus:ring-[#bc6c25] focus:ring-opacity-20 transition-colors"
-                  type="text"
-                  readOnly
-                  value={`${searchData.guests.adults} adults • ${searchData.guests.children} children • ${searchData.guests.rooms} room`}
-                  onClick={() => setShowGuestSelector(!showGuestSelector)}
-                /> */}
-
                 {showGuestSelector && (
                   <div className="absolute top-full left-0 right-0 bg-white border-2 border-gray-300 rounded-lg p-5 mt-2 shadow-xl z-50">
                     {/* Adults */}

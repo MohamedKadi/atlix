@@ -67,13 +67,18 @@ export default function RootLayout({ children }) {
               LinkedIn
             </a>
           </div>
-          <a
-            href="https://github.com/MohamedKadi"
-            className="font-medium text-orange-600 dark:text-blue-500 hover:underline"
-            target="_blank"
-          >
-            @copyrighted by AIT EL KADI Mohamed
-          </a>
+          <span>
+            @copyrighted by
+            <a
+              href="https://github.com/MohamedKadi"
+              className="font-medium text-orange-600 dark:text-blue-500 hover:underline"
+              target="_blank"
+            >
+              {' '}
+              AIT EL KADI Mohamed{' '}
+            </a>
+            & AIT HAMMOU Abderrahmane
+          </span>
         </footer>
       </body>
     </html>

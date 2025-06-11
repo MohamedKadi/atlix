@@ -404,7 +404,10 @@ const AboutUs = () => {
               <div style={styles.memberImage}>{member.icon}</div>
               <h3 style={styles.memberName}>{member.name}</h3>
               <p style={styles.memberRole}>{member.role}</p>
-              <p style={styles.memberBio}>{member.bio}</p>
+              <p
+                style={styles.memberBio}
+                dangerouslySetInnerHTML={{ __html: member.bio }}
+              />
             </div>
           ))}
         </div>
