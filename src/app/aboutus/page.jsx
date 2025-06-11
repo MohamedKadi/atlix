@@ -483,6 +483,10 @@ const AboutUs = () => {
             style={styles.ctaSecondary}
             onMouseEnter={(e) => handleButtonHover(e, true)}
             onMouseLeave={(e) => handleButtonHover(e, false)}
+            onClick={(e) => {
+              window.location.href =
+                'mailto:support@atlix.travel.com?subject=Inquiry&body=Hi, I would like to get in touch regarding...';
+            }}
           >
             Contact Us
           </button>

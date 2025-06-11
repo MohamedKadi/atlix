@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "🧠",
+    "title": "Smart Personalization",
+    "description": "Your trip evolves based on your tastes—history, food, adventure, or relaxation."
+  },
+  {
+    "icon": "📍",
+    "title": "Offline GPS & Navigation",
+    "description": "Stay on track even in the deepest medinas or the vast Sahara."
+  },
+  {
+    "icon": "🗺",
+    "title": "Interactive Cultural Itineraries",
+    "description": "From ancient ruins to Berber villages, ATLIX guides your journey in context."
+  },
+  {
+    "icon": "🤝",
+    "title": "Locally Curated Experiences",
+    "description": "Enjoy artisan workshops, home-cooked meals, and traditional music—led by the people who live it."
+  },
+  {
+    "icon": "🗣",
+    "title": "Language & Etiquette Support",
+    "description": "Learn key Darija/French phrases and respectful customs for deeper engagement."
+  },
+  {
+    "icon": "💚",
+    "title": "Ethical, Sustainable Tourism",
+    "description": "Support local businesses and heritage preservation with every booking."
+  }
+]

@@ -4,6 +4,8 @@ import Image from 'next/image';
 import atlixlogo from '../../public/atlixlogo.png';
 import destination from './destinations.json';
 import accommodations from './accommodations.json';
+import keyfeat from './keyfeat.json';
+import steps from './steps.json';
 
 const AtlixLandingPage = () => {
   const [searchData, setSearchData] = useState({
@@ -331,44 +333,7 @@ const AtlixLandingPage = () => {
           Key Features
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[
-            {
-              icon: '🧠',
-              title: 'Smart Personalization',
-              description:
-                'Your trip evolves based on your tastes—history, food, adventure, or relaxation.',
-            },
-            {
-              icon: '📍',
-              title: 'Offline GPS & Navigation',
-              description:
-                'Stay on track even in the deepest medinas or the vast Sahara.',
-            },
-            {
-              icon: '🗺',
-              title: 'Interactive Cultural Itineraries',
-              description:
-                'From ancient ruins to Berber villages, ATLIX guides your journey in context.',
-            },
-            {
-              icon: '🤝',
-              title: 'Locally Curated Experiences',
-              description:
-                'Enjoy artisan workshops, home-cooked meals, and traditional music—led by the people who live it.',
-            },
-            {
-              icon: '🗣',
-              title: 'Language & Etiquette Support',
-              description:
-                'Learn key Darija/French phrases and respectful customs for deeper engagement.',
-            },
-            {
-              icon: '💚',
-              title: 'Ethical, Sustainable Tourism',
-              description:
-                'Support local businesses and heritage preservation with every booking.',
-            },
-          ].map((feature, index) => (
+          {keyfeat.map((feature, index) => (
             <div
               key={index}
               className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
@@ -391,30 +356,7 @@ const AtlixLandingPage = () => {
           How It Works
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[
-            {
-              step: '1',
-              title: 'Set Your Preferences',
-              description:
-                'Choose your style—solo, family, couple, foodie, explorer.',
-            },
-            {
-              step: '2',
-              title: 'Browse & Book Experiences',
-              description: 'Filter by region, vibe, accessibility, or date.',
-            },
-            {
-              step: '3',
-              title: 'Let ATLIX Optimize Your Day',
-              description: 'Get a custom itinerary that updates in real-time.',
-            },
-            {
-              step: '4',
-              title: 'Travel Smart, Live Deeply',
-              description:
-                'Use offline maps, local guides, and ATLIX chat support anytime.',
-            },
-          ].map((step, index) => (
+          {steps.map((step, index) => (
             <div
               key={index}
               className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"

@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         <footer style={styles.footer}>
           <p style={styles.footerTitle}>ATLIX – Feel Morocco. Live Morocco.</p>
           <p style={{ marginBottom: '15px' }}>
-            📧 support@atlix.travel | 📍 Rabat, Morocco
+            📧 support@atlix.travel | 📍 Mohammedia, Morocco
           </p>
           <div style={styles.footerLinks}>
             <a
