@@ -72,7 +72,7 @@ export default function RootLayout({ children }) {
             className="font-medium text-orange-600 dark:text-blue-500 hover:underline"
             target="_blank"
           >
-            @copyrighted by this random guy
+            @copyrighted by AIT EL KADI Mohamed
           </a>
         </footer>
       </body>

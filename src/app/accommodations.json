@@ -11,92 +11,392 @@
   },
   {
     "id": 2,
-    "name": "Sahara Desert Camp",
-    "location": "Ouarzazate",
-    "type": "Desert Camp",
-    "price": 85,
+    "name": "Dar Lalla Kenza",
+    "location": "Fez",
+    "type": "Guesthouse",
+    "price": 90,
     "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d68bbf?w=300&h=200&fit=crop",
-    "description": "Authentic Berber camp experience under the stars"
+    "image": "https://images.unsplash.com/photo-1600851592633-59a979e3464c?w=300&h=200&fit=crop",
+    "description": "Cozy guesthouse with classic zellige tilework and rooftop views"
   },
   {
     "id": 3,
-    "name": "Blue Pearl Guesthouse",
-    "location": "Chefchaouen",
-    "type": "Guesthouse",
-    "price": 60,
-    "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d68bbf?w=300&h=200&fit=crop",
-    "description": "Charming blue-washed accommodation in the blue city"
+    "name": "Villa Blanca Urban Hotel",
+    "location": "Casablanca",
+    "type": "Hotel",
+    "price": 140,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1582719478250-03b176d47de1?w=300&h=200&fit=crop",
+    "description": "Stylish hotel near the Corniche with modern Moroccan decor"
   },
   {
     "id": 4,
-    "name": "Coastal Luxury Resort",
-    "location": "Essaouira",
-    "type": "Resort",
-    "price": 200,
-    "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=300&h=200&fit=crop",
-    "description": "Luxury beachfront resort with ocean views"
+    "name": "Riad Zyo",
+    "location": "Rabat",
+    "type": "Riad",
+    "price": 110,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1588459466515-0b913a4b9dbb?w=300&h=200&fit=crop",
+    "description": "Contemporary riad blending modern design with Andalusian charm"
   },
   {
     "id": 5,
-    "name": "Imperial Palace Hotel",
-    "location": "Fez",
-    "type": "Hotel",
-    "price": 95,
-    "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d68bbf?w=300&h=200&fit=crop",
-    "description": "Historic hotel near the ancient medina"
+    "name": "Dar Chefchaouen",
+    "location": "Chefchaouen",
+    "type": "Boutique Hotel",
+    "price": 80,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1549880187-cb0dbbfa28b6?w=300&h=200&fit=crop",
+    "description": "Charming hotel with blue-washed walls and mountain views"
   },
   {
     "id": 6,
-    "name": "Mountain Escape Lodge",
-    "location": "Tangier",
-    "type": "Lodge",
-    "price": 110,
-    "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300&h=200&fit=crop",
-    "description": "Cozy mountain lodge with stunning views of the High Atlas"
+    "name": "Riad Chbanate",
+    "location": "Essaouira",
+    "type": "Riad",
+    "price": 100,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1590490358889-9c14f2b2d1e6?w=300&h=200&fit=crop",
+    "description": "Elegant riad with sea-inspired decor near the old medina"
   },
   {
     "id": 7,
-    "name": "Zellige Boutique Hotel",
-    "location": "Rabat",
-    "type": "Boutique Hotel",
-    "price": 130,
-    "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1551887373-6f5b3dd35d6d?w=300&h=200&fit=crop",
-    "description": "Elegant hotel blending modern design with Moroccan craftsmanship"
+    "name": "Ocean View Retreat",
+    "location": "Agadir",
+    "type": "Resort",
+    "price": 150,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1600585154185-0312b9e18dfb?w=300&h=200&fit=crop",
+    "description": "Beachfront resort with pools, spa, and panoramic ocean views"
   },
   {
     "id": 8,
-    "name": "Kasbah Serenity",
-    "location": "Essaouira",
-    "type": "Kasbah",
-    "price": 75,
-    "rating": 4.4,
-    "image": "https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=300&h=200&fit=crop",
-    "description": "Peaceful retreat in a restored desert kasbah"
+    "name": "Hotel Transatlantique",
+    "location": "Meknes",
+    "type": "Hotel",
+    "price": 85,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1571501679680-de32f1e7aad4?w=300&h=200&fit=crop",
+    "description": "Historic hotel offering easy access to royal palaces and medina"
   },
   {
     "id": 9,
-    "name": "Ocean Breeze Apartment",
-    "location": "Agadir",
-    "type": "Apartment",
-    "price": 90,
-    "rating": 4.3,
-    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=300&h=200&fit=crop",
-    "description": "Modern beachfront apartment with full amenities"
+    "name": "Kasbah Ait Ben Moro",
+    "location": "Ouarzazate",
+    "type": "Kasbah",
+    "price": 95,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1616587892809-8c1832e52f20?w=300&h=200&fit=crop",
+    "description": "Authentic kasbah-style stay near Ait Benhaddou"
   },
   {
     "id": 10,
-    "name": "Dades Canyon Retreat",
+    "name": "Dar Tanger Medina",
+    "location": "Tangier",
+    "type": "Guesthouse",
+    "price": 105,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1545060894-5f47e5ab12a3?w=300&h=200&fit=crop",
+    "description": "Charming guesthouse with views of the Strait of Gibraltar"
+  },
+  {
+    "id": 11,
+    "name": "Riad Dar Ten",
     "location": "Marrakech",
-    "type": "Eco Lodge",
-    "price": 100,
+    "type": "Riad",
+    "price": 95,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1600119241193-bba4e88109bb?w=300&h=200&fit=crop",
+    "description": "Quiet riad tucked away in the bustling souks of Marrakech"
+  },
+  {
+    "id": 12,
+    "name": "Hotel Central",
+    "location": "Casablanca",
+    "type": "Hotel",
+    "price": 70,
+    "rating": 4.0,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300&h=200&fit=crop",
+    "description": "Simple hotel in the old medina, perfect for budget travelers"
+  },
+  {
+    "id": 13,
+    "name": "Riad Salam Fes",
+    "location": "Fez",
+    "type": "Riad",
+    "price": 130,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1620051326094-4d6fc23feffc?w=300&h=200&fit=crop",
+    "description": "Luxury riad with exquisite tilework and hammam services"
+  },
+  {
+    "id": 14,
+    "name": "ONOMO Hotel Rabat",
+    "location": "Rabat",
+    "type": "Hotel",
+    "price": 120,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1590490360184-8edacffcad4e?w=300&h=200&fit=crop",
+    "description": "Modern hotel near Rabat Ville train station with business amenities"
+  },
+  {
+    "id": 15,
+    "name": "Casa Hassan",
+    "location": "Chefchaouen",
+    "type": "Guesthouse",
+    "price": 60,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1530554764233-e79e16c91d08?w=300&h=200&fit=crop",
+    "description": "Art-filled guesthouse in a blue-washed alley of the medina"
+  },
+  {
+    "id": 16,
+    "name": "Le Medina Essaouira Hotel",
+    "location": "Essaouira",
+    "type": "Hotel",
+    "price": 140,
     "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1509822929063-6b6cfc9b1d3c?w=300&h=200&fit=crop",
-    "description": "Scenic eco-lodge nestled in the Dades Valley canyon"
+    "image": "https://images.unsplash.com/photo-1613474368326-f23c13d2c58a?w=300&h=200&fit=crop",
+    "description": "Elegant beachside resort with a private pool and spa"
+  },
+  {
+    "id": 17,
+    "name": "Surf Paradise Morocco",
+    "location": "Agadir",
+    "type": "Surf Camp",
+    "price": 75,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300&h=200&fit=crop",
+    "description": "Popular surf camp with lessons, yoga, and beachside vibes"
+  },
+  {
+    "id": 18,
+    "name": "Riad Yacout",
+    "location": "Meknes",
+    "type": "Riad",
+    "price": 90,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1582719322028-1749ba5f03a2?w=300&h=200&fit=crop",
+    "description": "Refined riad near Bab Mansour with a plunge pool and rooftop views"
+  },
+  {
+    "id": 19,
+    "name": "Le Temple des Arts",
+    "location": "Ouarzazate",
+    "type": "Boutique Hotel",
+    "price": 170,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1600585153900-043f3cdffb42?w=300&h=200&fit=crop",
+    "description": "Hollywood-inspired luxury stay near film studios"
+  },
+  {
+    "id": 20,
+    "name": "La Maison Blanche Tangier",
+    "location": "Tangier",
+    "type": "Guesthouse",
+    "price": 110,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1565125878101-b53ef02d09d4?w=300&h=200&fit=crop",
+    "description": "Historic white house turned boutique stay with sea views"
+  },
+  {
+    "id": 21,
+    "name": "Riad Be Marrakech",
+    "location": "Marrakech",
+    "type": "Riad",
+    "price": 125,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1549887534-b3d7cbeb99a1?w=300&h=200&fit=crop",
+    "description": "Instagram-famous riad with colorful design and rooftop hammocks"
+  },
+  {
+    "id": 22,
+    "name": "Barcelo Anfa Casablanca",
+    "location": "Casablanca",
+    "type": "Hotel",
+    "price": 160,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1582719478189-3764843f9e4e?w=300&h=200&fit=crop",
+    "description": "Chic downtown hotel with pool and rooftop bar"
+  },
+  {
+    "id": 23,
+    "name": "Riad Anata",
+    "location": "Fez",
+    "type": "Riad",
+    "price": 110,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1576495199016-94aef423fa7f?w=300&h=200&fit=crop",
+    "description": "Stylish riad offering cooking classes and local cuisine"
+  },
+  {
+    "id": 24,
+    "name": "Riad Meftaha",
+    "location": "Rabat",
+    "type": "Riad",
+    "price": 100,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1600962742706-4a74d2b4ad54?w=300&h=200&fit=crop",
+    "description": "Family-owned riad with peaceful garden patio and art displays"
+  },
+  {
+    "id": 25,
+    "name": "Dar Echchaouen Maison d’Hôtes",
+    "location": "Chefchaouen",
+    "type": "Guesthouse",
+    "price": 95,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1502303863505-d7b4f74c11cf?w=300&h=200&fit=crop",
+    "description": "Relaxed guesthouse with pool and sweeping Rif mountain views"
+  },
+  {
+    "id": 26,
+    "name": "Villa Quieta",
+    "location": "Essaouira",
+    "type": "Hotel",
+    "price": 130,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1613474368436-90ba6d0c9cfc?w=300&h=200&fit=crop",
+    "description": "Charming coastal villa with Andalusian décor and serene gardens"
+  },
+  {
+    "id": 27,
+    "name": "Riad Villa Blanche",
+    "location": "Agadir",
+    "type": "Riad",
+    "price": 155,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1572377241260-6dc355b4c351?w=300&h=200&fit=crop",
+    "description": "Luxury riad blending beach resort amenities with Moroccan tradition"
+  },
+  {
+    "id": 28,
+    "name": "Riad D'or",
+    "location": "Meknes",
+    "type": "Riad",
+    "price": 75,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1600096194519-882381717741?w=300&h=200&fit=crop",
+    "description": "Historic palace-turned-riad with richly decorated interiors"
+  },
+  {
+    "id": 29,
+    "name": "Dar Chamaa",
+    "location": "Ouarzazate",
+    "type": "Guesthouse",
+    "price": 80,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1524492412937-4961adf9e04e?w=300&h=200&fit=crop",
+    "description": "Eco-friendly guesthouse with palm garden and Atlas views"
+  },
+  {
+    "id": 30,
+    "name": "Fredj Hotel & Spa",
+    "location": "Tangier",
+    "type": "Hotel",
+    "price": 135,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1600220127475-f14b7c865ec4?w=300&h=200&fit=crop",
+    "description": "Upscale hotel with panoramic city views and a full-service spa"
+  },
+  {
+    "id": 31,
+    "name": "Riad Les Yeux Bleus",
+    "location": "Marrakech",
+    "type": "Riad",
+    "price": 145,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=300&h=200&fit=crop",
+    "description": "Elegant riad with a rooftop terrace, library, and artistic flair"
+  },
+  {
+    "id": 32,
+    "name": "Suite Hotel Casa Diamond",
+    "location": "Casablanca",
+    "type": "Hotel",
+    "price": 180,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=300&h=200&fit=crop",
+    "description": "Modern suites with city views and central location"
+  },
+  {
+    "id": 33,
+    "name": "Karawan Riad",
+    "location": "Fez",
+    "type": "Riad",
+    "price": 165,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1591457394332-6cd665238cb1?w=300&h=200&fit=crop",
+    "description": "Lavish adults-only riad with curated antiques and spa services"
+  },
+  {
+    "id": 34,
+    "name": "Hotel des Oudaias",
+    "location": "Rabat",
+    "type": "Hotel",
+    "price": 95,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1593851993507-3a1cbdc38e03?w=300&h=200&fit=crop",
+    "description": "Traditional-style hotel steps from Kasbah des Oudaias"
+  },
+  {
+    "id": 35,
+    "name": "Riad Rifandalus",
+    "location": "Chefchaouen",
+    "type": "Riad",
+    "price": 65,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1579113800584-cb3bd6c6e3b1?w=300&h=200&fit=crop",
+    "description": "Budget-friendly riad with a rooftop terrace and panoramic town views"
+  },
+  {
+    "id": 36,
+    "name": "Heure Bleue Palais",
+    "location": "Essaouira",
+    "type": "Luxury Riad",
+    "price": 190,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1579883023473-e66e5b007f25?w=300&h=200&fit=crop",
+    "description": "High-end riad with colonial-era architecture and refined cuisine"
+  },
+  {
+    "id": 37,
+    "name": "Hyatt Place Taghazout Bay",
+    "location": "Agadir",
+    "type": "Resort",
+    "price": 170,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1611078489920-e6c1f6457295?w=300&h=200&fit=crop",
+    "description": "Modern resort near surf beaches and golf courses"
+  },
+  {
+    "id": 38,
+    "name": "Hotel Belle Vue",
+    "location": "Meknes",
+    "type": "Hotel",
+    "price": 70,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1590490381482-5a5bcf953f0e?w=300&h=200&fit=crop",
+    "description": "City hotel with modern rooms and views of the medina"
+  },
+  {
+    "id": 39,
+    "name": "Oscar Hotel by Atlas Studios",
+    "location": "Ouarzazate",
+    "type": "Hotel",
+    "price": 90,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?w=300&h=200&fit=crop",
+    "description": "Film-themed hotel inside the world’s largest film studio"
+  },
+  {
+    "id": 40,
+    "name": "Dar Nour",
+    "location": "Tangier",
+    "type": "Riad",
+    "price": 120,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1618221196113-bb8aeb8fbd0d?w=300&h=200&fit=crop",
+    "description": "Authentic riad with rooftop bar and literary charm"
   }
 ]

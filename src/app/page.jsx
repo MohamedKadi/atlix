@@ -301,12 +301,12 @@ const AtlixLandingPage = () => {
                   <p className="text-gray-600 text-sm mb-4">
                     {result.description}
                   </p>
-                  <div className="text-2xl font-bold text-[#bc6c25]">
+                  {/* <div className="text-2xl font-bold text-[#bc6c25]">
                     ${result.price}
                     <span className="text-sm text-gray-600 font-normal">
                       /night
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
