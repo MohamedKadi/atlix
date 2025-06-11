@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Riad Atlas Prestige",
+    "location": "Marrakech",
+    "type": "Riad",
+    "price": 120,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=300&h=200&fit=crop",
+    "description": "Traditional Moroccan riad in the heart of Medina"
+  },
+  {
+    "id": 2,
+    "name": "Sahara Desert Camp",
+    "location": "Ouarzazate",
+    "type": "Desert Camp",
+    "price": 85,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d68bbf?w=300&h=200&fit=crop",
+    "description": "Authentic Berber camp experience under the stars"
+  },
+  {
+    "id": 3,
+    "name": "Blue Pearl Guesthouse",
+    "location": "Chefchaouen",
+    "type": "Guesthouse",
+    "price": 60,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d68bbf?w=300&h=200&fit=crop",
+    "description": "Charming blue-washed accommodation in the blue city"
+  },
+  {
+    "id": 4,
+    "name": "Coastal Luxury Resort",
+    "location": "Essaouira",
+    "type": "Resort",
+    "price": 200,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=300&h=200&fit=crop",
+    "description": "Luxury beachfront resort with ocean views"
+  },
+  {
+    "id": 5,
+    "name": "Imperial Palace Hotel",
+    "location": "Fez",
+    "type": "Hotel",
+    "price": 95,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d68bbf?w=300&h=200&fit=crop",
+    "description": "Historic hotel near the ancient medina"
+  },
+  {
+    "id": 6,
+    "name": "Mountain Escape Lodge",
+    "location": "Tangier",
+    "type": "Lodge",
+    "price": 110,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300&h=200&fit=crop",
+    "description": "Cozy mountain lodge with stunning views of the High Atlas"
+  },
+  {
+    "id": 7,
+    "name": "Zellige Boutique Hotel",
+    "location": "Rabat",
+    "type": "Boutique Hotel",
+    "price": 130,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1551887373-6f5b3dd35d6d?w=300&h=200&fit=crop",
+    "description": "Elegant hotel blending modern design with Moroccan craftsmanship"
+  },
+  {
+    "id": 8,
+    "name": "Kasbah Serenity",
+    "location": "Essaouira",
+    "type": "Kasbah",
+    "price": 75,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=300&h=200&fit=crop",
+    "description": "Peaceful retreat in a restored desert kasbah"
+  },
+  {
+    "id": 9,
+    "name": "Ocean Breeze Apartment",
+    "location": "Agadir",
+    "type": "Apartment",
+    "price": 90,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=300&h=200&fit=crop",
+    "description": "Modern beachfront apartment with full amenities"
+  },
+  {
+    "id": 10,
+    "name": "Dades Canyon Retreat",
+    "location": "Marrakech",
+    "type": "Eco Lodge",
+    "price": 100,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1509822929063-6b6cfc9b1d3c?w=300&h=200&fit=crop",
+    "description": "Scenic eco-lodge nestled in the Dades Valley canyon"
+  }
+]

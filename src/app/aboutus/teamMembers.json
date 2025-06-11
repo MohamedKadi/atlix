@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "👨‍💼",
+    "name": "Alex Rodriguez",
+    "role": "Chief Executive Officer",
+    "bio": "With over 15 years in the travel industry, Alex leads our vision of making world-class accommodations accessible to every traveler."
+  },
+  {
+    "icon": "👩‍💻",
+    "name": "Sarah Chen",
+    "role": "Chief Technology Officer",
+    "bio": "Sarah oversees our technical innovation, ensuring our platform remains cutting-edge, secure, and user-friendly."
+  },
+  {
+    "icon": "👨‍🎨",
+    "name": "Marcus Johnson",
+    "role": "Head of User Experience",
+    "bio": "Marcus and his team craft intuitive, beautiful experiences that make booking your perfect stay effortless and enjoyable."
+  }
+]

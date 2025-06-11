@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "🎯",
+    "title": "Customer First",
+    "description": "Every decision we make is guided by what's best for our travelers. Your satisfaction and peace of mind are our top priorities, from search to checkout and beyond."
+  },
+  {
+    "icon": "🤝",
+    "title": "Trust & Transparency",
+    "description": "We believe in honest, transparent pricing with no hidden fees. What you see is what you pay, and our reviews come from verified guests only."
+  },
+  {
+    "icon": "🌍",
+    "title": "Global Reach",
+    "description": "From bustling metropolitan cities to hidden gem destinations, we're committed to expanding access to incredible accommodations worldwide."
+  },
+  {
+    "icon": "💡",
+    "title": "Innovation",
+    "description": "We continuously invest in technology and user experience improvements to make travel planning more intuitive, efficient, and enjoyable."
+  },
+  {
+    "icon": "🛡️",
+    "title": "Security",
+    "description": "Your personal information and payment details are protected by industry-leading security measures and encryption protocols."
+  },
+  {
+    "icon": "⚡",
+    "title": "Excellence",
+    "description": "We strive for excellence in every aspect of our service, from our user interface to customer support and partnership quality."
+  }
+]
