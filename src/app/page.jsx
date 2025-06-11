@@ -10,13 +10,17 @@ import steps from './steps.json';
 const AtlixLandingPage = () => {
   const [searchData, setSearchData] = useState({
     destination: '',
-    checkIn: '',
-    checkOut: '',
+
     guests: { adults: 2, children: 0, rooms: 1 },
   });
   const [showGuestSelector, setShowGuestSelector] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
   const [showResults, setShowResults] = useState(false);
+  const [selectedCar, setSelectedCar] = useState('volvo'); // default value
+
+  const handleChange = (event) => {
+    setSelectedCar(event.target.value);
+  };
 
   // Fake data for Morocco destinations and accommodations
   const fakeData = {
@@ -96,10 +100,10 @@ const AtlixLandingPage = () => {
           {/* Search Container */}
           <div className="bg-white bg-opacity-95 rounded-2xl p-2 sm:p-6 lg:p-4 mb-8 shadow-2xl">
             <h2 className="text-[#bc6c25] text-lg sm:text-xl md:text-2xl font-bold mb-6 text-center">
-              Find Your Perfect Moroccan Stay
+              What city or region are you visiting?
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6 items-end">
+            <div className="flex justify-center gap-2">
               {/* Destination Input */}
               <div className="sm:col-span-2 lg:col-span-2">
                 <label className="block text-gray-600 text-sm font-medium mb-2">
@@ -128,7 +132,7 @@ const AtlixLandingPage = () => {
               {/* Check-in Date */}
               <div>
                 <label className="block text-gray-600 text-sm font-medium mb-2">
-                  Check-in date
+                  When are you visiting Morocco?
                 </label>
                 <input
                   className="w-full p-3 border-2 border-gray-300 rounded-lg text-gray-800 focus:border-[#bc6c25] focus:outline-none focus:ring-2 focus:ring-[#bc6c25] focus:ring-opacity-20 transition-colors"
@@ -143,21 +147,29 @@ const AtlixLandingPage = () => {
               {/* Check-out Date */}
               <div>
                 <label className="block text-gray-600 text-sm font-medium mb-2">
-                  Check-out date
+                  Who are you traveling with?
                 </label>
-                <input
+                <select
                   className="w-full p-3 border-2 border-gray-300 rounded-lg text-gray-800 focus:border-[#bc6c25] focus:outline-none focus:ring-2 focus:ring-[#bc6c25] focus:ring-opacity-20 transition-colors"
-                  type="date"
-                  value={searchData.checkOut}
+                  value={searchData.travelCompanion}
                   onChange={(e) =>
-                    setSearchData({ ...searchData, checkOut: e.target.value })
+                    setSearchData({
+                      ...searchData,
+                      travelCompanion: e.target.value,
+                    })
                   }
-                />
+                >
+                  <option value="">Select an option</option>
+                  <option value="solo">Solo</option>
+                  <option value="partner">Couple</option>
+                  <option value="family">Family</option>
+                  <option value="friends">Friends</option>
+                </select>
               </div>
 
               {/* Guests Selector */}
               <div className="relative">
-                <label className="block text-gray-600 text-sm font-medium mb-2">
+                {/* <label className="block text-gray-600 text-sm font-medium mb-2">
                   Guests & rooms
                 </label>
                 <input
@@ -166,7 +178,7 @@ const AtlixLandingPage = () => {
                   readOnly
                   value={`${searchData.guests.adults} adults • ${searchData.guests.children} children • ${searchData.guests.rooms} room`}
                   onClick={() => setShowGuestSelector(!showGuestSelector)}
-                />
+                /> */}
 
                 {showGuestSelector && (
                   <div className="absolute top-full left-0 right-0 bg-white border-2 border-gray-300 rounded-lg p-5 mt-2 shadow-xl z-50">

@@ -15,7 +15,7 @@ const styles = {
   },
   header: {
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+      "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1738407274092-9f161e145da0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -333,9 +333,11 @@ const AboutUs = () => {
       <div style={styles.header}>
         <h1 style={styles.headerTitle}>About Us</h1>
         <p style={styles.headerSubtitle}>
-          Discover the story behind our passion for creating unforgettable
-          travel experiences and connecting travelers with their perfect
-          accommodations worldwide.
+          ATLIX is a smart, culturally-driven travel platform that helps
+          tourists experience Morocco like locals—through personalized
+          itineraries, offline tools, and authentic, community-based
+          experiences. We blend modern technology with deep cultural insight to
+          make every journey immersive, meaningful, and unforgettable.
         </p>
       </div>
 
@@ -344,25 +346,17 @@ const AboutUs = () => {
         <h2 style={styles.sectionTitle}>Our Story</h2>
         <div style={styles.storySection}>
           <p style={styles.description}>
-            Founded in 2018 with a simple yet powerful vision, we set out to
-            revolutionize the way people discover and book their perfect
-            accommodations. What started as a small team of travel enthusiasts
-            has grown into a trusted platform serving millions of travelers
-            worldwide.
-          </p>
-          <p style={styles.description}>
-            Our journey began when our founders, avid travelers themselves,
-            experienced the frustration of complicated booking processes and
-            limited options. They envisioned a platform that would not only
-            simplify hotel booking but also curate exceptional experiences
-            tailored to each traveler's unique preferences and budget.
-          </p>
-          <p style={styles.description}>
-            Today, we proudly partner with over 10,000 hotels, resorts, and
-            unique accommodations across 150+ destinations, ensuring that
-            whether you're seeking a luxury resort, a cozy boutique hotel, or an
-            authentic local experience, we have the perfect match for your
-            journey.
+            ATLIX is a dynamic digital platform designed to transform the way
+            travelers explore Morocco. Whether you're planning your first trip
+            or returning to rediscover its magic, ATLIX offers a personalized,
+            intuitive, and immersive experience tailored to your journey. Our
+            mission is to bridge the gap between local authenticity and modern
+            convenience, helping tourists connect with Morocco’s rich heritage,
+            hidden gems, and vibrant communities. With ATLIX, your Moroccan
+            adventure begins before you even arrive. At ATLIX, we believe the
+            best way to experience Morocco is to live it, not just visit it. We
+            invite you to step beyond the tourist trail and into the heart of
+            Moroccan life. ATLIX — Feel Morocco. Live Morocco.
           </p>
         </div>
       </div>
@@ -429,8 +423,8 @@ const AboutUs = () => {
             padding: '0 15px',
           }}
         >
-          Numbers that reflect our commitment to connecting travelers with
-          exceptional accommodations
+          Numbers that reflect our dedication to guiding travelers through
+          unforgettable Moroccan experiences.
         </p>
         <div style={getStatsGridStyle()}>
           {stats.map((stat, index) => (
@@ -447,18 +441,15 @@ const AboutUs = () => {
         <h2 style={styles.sectionTitle}>Our Mission</h2>
         <div style={styles.storySection}>
           <p style={styles.description}>
-            To democratize travel by making exceptional accommodations
-            accessible, affordable, and easy to discover for every traveler,
-            regardless of their budget or destination. We believe that everyone
-            deserves a comfortable, memorable place to stay that enhances their
-            journey and creates lasting memories.
-          </p>
-          <p style={styles.description}>
-            We're not just a booking platform – we're your travel companions,
-            committed to ensuring that every trip you take is better than the
-            last. Through innovative technology, trusted partnerships, and
-            unwavering focus on customer satisfaction, we're building the future
-            of travel, one booking at a time.
+            ATLIX is committed to redefining tourism in Morocco by offering
+            travelers a seamless, culturally immersive, and deeply personalized
+            experience. Our mission is to bridge the gap between global
+            convenience and local authenticity—empowering tourists to explore
+            Morocco confidently through smart technology, real-time guidance,
+            and rich cultural engagement. By supporting local communities and
+            promoting responsible travel, we aim to make every journey both
+            meaningful for the visitor and beneficial for the people and
+            heritage of Morocco.
           </p>
         </div>
       </div>
@@ -467,8 +458,9 @@ const AboutUs = () => {
       <div style={styles.ctaSection}>
         <h2 style={styles.sectionTitle}>Ready to Start Your Journey?</h2>
         <p style={styles.description}>
-          Join millions of satisfied travelers who trust us with their
-          accommodation needs. Discover your next perfect stay today.
+          Join thousands of curious travelers discovering Morocco like never
+          before. Explore hidden gems, cultural experiences, and unforgettable
+          adventures — all in one place.
         </p>
         <div style={getButtonContainerStyle()}>
           <Link
@@ -477,7 +469,7 @@ const AboutUs = () => {
             onMouseEnter={(e) => handleButtonHover(e, true)}
             onMouseLeave={(e) => handleButtonHover(e, false)}
           >
-            Search Hotels
+            Discover More
           </Link>
           <button
             style={styles.ctaSecondary}

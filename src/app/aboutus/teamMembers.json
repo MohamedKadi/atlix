@@ -1,20 +1,20 @@
 [
   {
-    "icon": "👨‍💼",
-    "name": "Alex Rodriguez",
-    "role": "Chief Executive Officer",
-    "bio": "With over 15 years in the travel industry, Alex leads our vision of making world-class accommodations accessible to every traveler."
+    "icon": "👨",
+    "name": "Abderrahmane Ait Hammou",
+    "role": "Product Owner",
+    "bio": "Passionate about user experience and vision-driven development, ensures the platform meets real traveler needs by aligning features with project goals. Always balancing priorities and feedback, Abderrahmane guides the team in delivering value each sprint."
   },
   {
-    "icon": "👩‍💻",
-    "name": "Sarah Chen",
-    "role": "Chief Technology Officer",
-    "bio": "Sarah oversees our technical innovation, ensuring our platform remains cutting-edge, secure, and user-friendly."
+    "icon": "👩",
+    "name": "Asmaa Bakki",
+    "role": "Scrum Master",
+    "bio": "Asmaa keeps the team on track by facilitating smooth sprints, daily stand-ups, and solving blockers. They promote collaboration, clear communication, and an agile mindset within the group."
   },
   {
-    "icon": "👨‍🎨",
-    "name": "Marcus Johnson",
-    "role": "Head of User Experience",
-    "bio": "Marcus and his team craft intuitive, beautiful experiences that make booking your perfect stay effortless and enjoyable."
+    "icon": "👨",
+    "name": "Ayman Said ElMassaoudi",
+    "role": "Scrum Master",
+    "bio": "With a focus on continuous improvement, Ayman helps the team stay focused and flexible. They lead sprint planning and retrospectives, ensuring that team members remain engaged and productive."
   }
 ]
