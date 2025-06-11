@@ -1,9 +1,9 @@
 [
   {
     "icon": "👨",
-    "name": "Abderrahmane",
+    "name": "Ayman",
     "role": "Product Owner",
-    "bio": "Passionate about user experience and vision-driven development, ensures the platform meets real traveler needs by aligning features with project goals. Always balancing priorities and feedback, Abderrahmane guides the team in delivering value each sprint."
+    "bio": "Passionate about user experience and vision-driven development, ensures the platform meets real traveler needs by aligning features with project goals. Always balancing priorities and feedback, Ayman guides the team in delivering value each sprint."
   },
   {
     "icon": "👩",
@@ -12,9 +12,9 @@
     "bio": "Asmaa keeps the team on track by facilitating smooth sprints, daily stand-ups, and solving blockers. She promotes collaboration, clear communication, and an agile mindset within the group.<br />Team Members: Ayman, Douae, Meriam"
   },
   {
-    "icon": "👩",
-    "name": "Khadija",
+    "icon": "👨",
+    "name": "Abderrahmane",
     "role": "Scrum Master 2",
-    "bio": "With a focus on continuous improvement, Khadija helps the team stay focused and flexible. She leads sprint planning and retrospectives, ensuring that team members remain engaged and productive.<br />Team Members: Youness, Anas, Mohamed, Hafida"
+    "bio": "With a focus on continuous improvement, Abderrahmane helps the team stay focused and flexible. He leads sprint planning and retrospectives, ensuring that team members remain engaged and productive.<br />Team Members: Youness, Anas, Mohamed, Hafida"
   }
 ]
